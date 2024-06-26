@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: floralwhite;
+}
+
+.qw,.er{
+    width: 300px;
+    height: 90px;
+
+}
+
+.qw{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+.yumru{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #CD8B62;
+}
+
+.qw>p{
+    
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.qw>h2>a{
+   color: black;
+   text-decoration: none;
+}
+
+.er{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.er>ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    width: 250px;
+    
+
+}
+
+.er>ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    transition:  1s all;
+}
+
+.er>ul>li{
+    padding-right: 10px;
+    border-right: solid black 1px;
+    display: flex;
+}
+
+
+.er>ul>li>a:hover{
+    color: coral;
+}
+
+
+
+footer{
+    height: 200px;
+    background-color: floralwhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+   
+    
+}
+
+.ty,.ui,.op,.as{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.ty>a,.ui>a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+.ty>h3,.ui>h3{
+    margin-bottom: 5px;
+}
+
+.as>h6{
+    margin-top: 10px;
+}
+
+
+
+.fa-linkedin{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #475C6C;
+}
+
+.fa-twitter{
+    font-size: 20px;
+    color: #475C6C;
+}
+
+hr{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.fa-phone{
+    margin-right: 5px;
+    color: #475C6C;
+}
+
+.fa-envelope{
+    margin-right: 5px;
+    color: #475C6C;
+}
+
+.etin{
+    width: 100%;
+    height: 600px;
+    background-color: floralwhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.qn,.wm{
+   width: 600px;
+   height: 500px;
+   
+   
+   
+
+}
+
+.ana,.ana2{
+    display: flex;
+   justify-content: center;
+   
+}
+
+
+
+.birinci,.ikinci{
+   width: 100%;
+   height: 100px;
+   
+   padding-left: 20px;
+    padding-top: 10px;
+}
+
+
+
+.inpo{
+    width: 200px;
+    height: 40px;
+    border: solid black 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.inpo:hover{
+    border: solid black 2px;
+}
+
+
+
+input{
+    border: none;
+    outline: none;
+    background-color: floralwhite;
+}
+
+.ana3{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.ucuncu,.dord{
+    width: 300px;
+    height: 200px;
+    
+}
+
+.ucuncu{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+textarea{
+    width: 200px;
+    height: 150px;
+    border: solid black 1px;
+    outline: none;
+    resize: none;
+    margin-top: 5px;
+    background-color: floralwhite;
+    
+}
+
+textarea:hover{
+    border: solid black 2px;
+}
+
+.dord{
+    display: flex;
+    
+    align-items: center;
+
+}
+
+.fso{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#EED7A1;
+    transition: 1s all;
+}
+
+.fso:hover{
+    background-color: floralwhite;
+}
+
+.fso>h3{
+    cursor: pointer;
+}
+
+.wm>h2{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.wm>p{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.wm>h3{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wm>a{
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+    padding-top: 10px;
+    
+}
+
+.fa-bars{
+    display: none;
+}
+
+@media screen and (max-width: 680px) {
+.qw{
+    display: none;
+}  
+
+header{
+    justify-content: space-around;
+}
+
+.fa-bars{
+    display: block;
+    font-size: 20px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.fa-bars:hover{
+    color: coral ;
+}
+
+
+.ty>h3,.ui>h3,.op>h3{
+    font-size: 13px;
+}
+
+.ty>a,.ui>a{
+    font-size: 10px;
+}
+
+.ty>.fa-phone,.ui>.fa-envelope,.op>.fa-linkedin{
+    font-size: 10px;
+}
+
+.op>.fa-twitter{
+    font-size: 10px;
+}
+
+ .etin{
+    flex-direction: column;
+   
+    
+    height: 1000px;
+    
+ }
+
+ .wm{
+    height: 300px;
+    
+    width: 400px;
+ }
+
+ .qn{
+   
+    width: 450px;
+   
+ }
+
+
+ 
+ }
